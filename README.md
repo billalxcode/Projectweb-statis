@@ -1,2 +1,2 @@
 # Projectweb-statis
-Pembuatan project web statis tentang Manfaat belajar bahasa asing 
+Pembuatan project web statis tentang 7 Manfaat belajar bahasa asing 
