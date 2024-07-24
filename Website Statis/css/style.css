@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 0px 3px 4px -1px rgba(0, 0, 0, 0.78);
+}
+
+li {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: lightblue;
+    color: black;
+
+}
+
+.content {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px auto;
+    
+}
+
+.column {
+    padding: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.row-left{
+    padding: 40px;
+    height: 1500px;
+    width: 73%;  
+    border-radius: 20px;
+}
+
+.column-right{
+    padding: 30px;
+    height: 500px;
+    width: 300px;   
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.user p{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -28px;
+    margin-bottom: -28px;
+    padding-bottom: 35px;
+    color: lightslategray;
+}
+
+.hr{
+    background-color: black;
+    color: black;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 15px;
+}
+
+.hastag{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.hastag p {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.547);
+    padding: 2px;
+    font-size: 15px;
+}
