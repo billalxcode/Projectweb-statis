@@ -22,6 +22,8 @@ body {
     float: left;
     padding-left: 15px;
     padding-right: 15px;
+    
+
 }
 
 .navbar li a {
@@ -30,7 +32,13 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 10px;
+    
 }
+
+.navbar a i::before {
+    padding-right: 5px;
+   }
 
 .navbar li a:hover:not(.active) {
     background-color: #111;
@@ -52,6 +60,33 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.media-sosial{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 200px;
+    left: 20px;
+    z-index: 99;
+    gap: 10px;
+    
+}
+#myBtn a i{
+    color: black;
+    text-decoration: none;
+}
+#myBtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:  #555;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 30px;
+  }
+  
+  #myBtn:hover {
+    background-color:lightgray ;
+  }
 
 .row {
     display: flex;
@@ -71,7 +106,7 @@ body {
 
 .row-left {
     padding: 40px;
-    height: 5000px;
+    height: 3200px;
     width: 67%;
     border-radius: 20px;
 
@@ -112,11 +147,18 @@ img {
     margin-bottom: 12px;
 }
 
-.hastag p {
+.hastag a {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.547);
-    padding: 2px;
-    font-size: 15px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: lightslategray;
+}
+
+.hastag a:hover{
+    color: black;
 }
 
 ul{
@@ -124,6 +166,22 @@ ul{
     line-height: 25px;
 }
 
-.artikel p{
+article p{
     line-height: 22px;
+    max-width: 628px;
 }
+
+ul li{
+    max-width: 628px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    height: 300px;
+    color: white;
+    text-align: center;
+ }
