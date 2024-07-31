@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+*{
+    scroll-behavior:smooth;
+}
+
 body {
     margin: 0;
 }
@@ -22,7 +26,7 @@ body {
     float: left;
     padding-left: 15px;
     padding-right: 15px;
-    
+
 
 }
 
@@ -33,12 +37,12 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 10px;
-    
+
 }
 
 .navbar a i::before {
     padding-right: 5px;
-   }
+}
 
 .navbar li a:hover:not(.active) {
     background-color: #111;
@@ -60,7 +64,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.media-sosial{
+.media-sosial {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -68,25 +72,30 @@ body {
     left: 20px;
     z-index: 99;
     gap: 10px;
-    
+
+
 }
-#myBtn a i{
+
+#myBtn a i {
     color: black;
     text-decoration: none;
 }
+
 #myBtn {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color:  #555;
+    background-color: #555;
     cursor: pointer;
     border-radius: 100px;
     font-size: 30px;
-  }
-  
-  #myBtn:hover {
-    background-color:lightgray ;
-  }
+
+}
+
+#myBtn:hover {
+    background-color: lightgray;
+}
+
 
 .row {
     display: flex;
@@ -109,7 +118,9 @@ body {
     height: 3200px;
     width: 67%;
     border-radius: 20px;
-
+    box-shadow: 3px 3px 5px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 3px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 5px -2px rgba(0, 0, 0, 0.75);
 }
 
 .column-right {
@@ -117,6 +128,9 @@ body {
     height: 500px;
     width: 320px;
     border-radius: 20px;
+    box-shadow: 3px 3px 5px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 3px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 5px -2px rgba(0, 0, 0, 0.75);
 }
 
 img {
@@ -157,21 +171,21 @@ img {
     color: lightslategray;
 }
 
-.hastag a:hover{
+.hastag a:hover {
     color: black;
 }
 
-ul{
+ul {
     margin-left: -30px;
     line-height: 25px;
 }
 
-article p{
+article p {
     line-height: 22px;
     max-width: 628px;
 }
 
-ul li{
+ul li {
     max-width: 628px;
 }
 
@@ -184,4 +198,4 @@ footer {
     height: 300px;
     color: white;
     text-align: center;
- }
+}
